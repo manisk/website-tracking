@@ -1,0 +1,28 @@
+.title-url {
+    small {
+        color: #00466e;
+    }
+}
+
+.website-status {
+    small {
+        color: #b4b4b4;
+    }
+    .btn {
+        width: 155px;
+    }
+}
+
+.error-border {
+    border-left: 7px solid #fc5200;
+    padding-left: 17px;
+}
+
+.error-color {
+    color: #fc5200 !important;
+}
+
+.btn-error {
+    background-color: #fc5200;
+    color: #fff;
+}
