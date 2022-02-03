@@ -20,7 +20,7 @@ const websiteList = (props) => {
             ) : (
               <div className="title-url error-border">
                 <h2>
-                  <b>Sorry!This url is not exist</b>
+                  <b>Sorry!This url does not exist</b>
                 </h2>
                 <small className="error-color">{website.url}</small>
               </div>

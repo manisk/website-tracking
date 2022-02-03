@@ -17,6 +17,7 @@ const UrlTracker = (props) => {
       const title = response.match(/<title.*?>(.*)<\/title>/)[1];
       console.log(title);
       props.addWebsite({ title: title, url: url, success: true });
+      setUrl("");
       //console.log(response);
     } catch (error) {
       console.log("error", error);
